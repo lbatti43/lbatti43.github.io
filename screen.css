@@ -1,0 +1,187 @@
+
+/* Background and Layout - General */
+body {
+    background-color: #eff1f3;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+} 
+
+p {
+    margin: 5px;
+}
+
+.container {
+    padding-left: 175px;
+    padding-bottom: 15px;
+}
+
+ol, ul {
+    margin: 0;
+}
+
+
+/* Meet the Boys Layout */
+#mtb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    width: 45%;
+}
+
+#mtb ul{
+    margin-left: 60px;
+}
+
+#mtb img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rufus and Muttly Layout */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+
+.flex-child-left {
+    flex: 1 1 0;
+}
+
+.flex-child-right {
+    flex: 2 1 0;
+}
+
+.facttable {
+    width: 50%;
+    border: 2px solid; 
+    border-color: #197278;
+    border-radius: 7px;
+    border-width: 5px;
+}
+
+.facttable th{
+    background-color: #197278;
+    color: white;
+}
+
+
+.facttable td {
+    text-align: center;
+    padding: 5px;
+    width:auto;
+}
+
+.facttable tr:nth-child(even) {
+    background-color: #edddd4;
+}
+
+/* Care instructions Layout */
+#ci {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    width: 45%;
+}
+
+#ci h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-color: #197278;
+    text-decoration-style: wavy;
+}
+
+#ci img {
+    max-width: 100%;
+        height: auto;
+}
+
+
+/* Font */
+* {
+    font-family: "Tahoma", "Arial", sans-serif;
+}
+
+/* Navigation Bar */
+.sidenav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #772e25;
+
+}
+
+.sidenav a {
+    color: #f2f2f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: #eff1f3;
+    color: #283d3b;
+    width: 100%;
+}
+
+.sidenav a.home {
+    background-color: #c44536;
+    color: white;
+}
+
+.sidenav a.home:hover {
+    text-decoration: underline;
+}
+
+
+/* Headers */
+h1 {
+    color: #283d3b;
+    text-align:center;
+    font-size: 30px;
+}
+
+h3 {
+    color: #197278;
+    margin: 6px;
+}
+
+h4 {
+    color: #283d3b;
+    margin-top: 50px;
+    margin-bottom: 6px;
+}
+
+/* Footer */
+.footer {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #283d3b;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+    padding: 15px;
+    margin: 0;
+}
